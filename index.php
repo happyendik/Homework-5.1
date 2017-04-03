@@ -1,9 +1,10 @@
 <?php
 error_reporting(0);
-
+// все классы трейты интерфейсы необходимо разнести по отдельным файлам
+// остальное все хорошо
 trait backGear
 {
-    public $znak;
+    public $znak; // что это за назание переменной?  можеть быть sign ? переименовать
     public function moveBack()
     {
         echo "Едем $this->direction<br>";
